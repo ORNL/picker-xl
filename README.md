@@ -1,2 +1,3 @@
-# picker-xl
-Training scripts for the PickerXL model, which operates on seismic single station data to pick primary and secondary waves.
+# Updates
+
+This is the location for the future open source release of the PickerXL training code. This repository will also contain any links to other released information, like the model itself.
