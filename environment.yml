@@ -1,0 +1,13 @@
+name: pickerxl
+channels:
+- pytorch
+- nvidia
+- conda-forge
+dependencies:
+- python=3.11
+- pytorch=2.3.0
+- numpy=1.26.4
+- pytorch-cuda
+- lightning=2.2.4
+- matplotlib
+- h5py
