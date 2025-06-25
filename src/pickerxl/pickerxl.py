@@ -151,9 +151,9 @@ class Picker:
         self.model.load_state_dict(checkpoint_data)
         self.model.eval()
 
-    def predict_probability(self, data):
+    def predict_probability(self, data, eps=1e-10):
         data = np.array(data).astype(np.float32)
-        data = data / (np.max(np.abs(data)) + 1e-10)
+        data = data / (np.max(np.abs(data), axis=(1,2), keepdims=True) + eps)
         data = torch.Tensor(data)
         preds = self.model(data)
         return preds

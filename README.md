@@ -60,8 +60,7 @@ range of 10–110 km and a magnitude range of 0–4.5 because of biases in the t
 
 ## Reference
 
-Chai, C., Rose, D., Stewart, S., Martindale, N., Adams, M., Linville, L., Stanley, C., Polanco, A. T., and Bingham, P., PickerXL, a Large Deep Learning Model to Measure Arrival Times from Noisy Seismic Signals, Seismological Research Letters, accepted.
-
+Chengping Chai, Derek Rose, Scott Stewart, Nathan Martindale, Mark Adams, Lisa Linville, Christopher Stanley, Anibely Torres Polanco, Philip Bingham; PickerXL, A Large Deep Learning Model to Measure Arrival Times from Noisy Seismic Signals. Seismological Research Letters 2025; doi: https://doi.org/10.1785/0220240353
 
 ## License
 
