@@ -9,9 +9,19 @@ This model is trained on STEAD (Mousavi et al., 2019) for Primary (P) and Second
 
 ## Installation
 
+Creating a virtual environment is highly encouraged. 
+
 ```
 pip install pickerxl
 ```
+
+To install only for CPU (e.g., macOS), you may use the following commands.
+
+```
+pip3 install torch torchvision torchaudio
+pip3 install pickerxl
+```
+
 
 ## Example Usage
 
