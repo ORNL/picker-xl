@@ -158,9 +158,9 @@ class Picker:
         preds = self.model(data)
         return preds
 
-    def predict_arrivals(self, data):
+    def predict_arrivals(self, data, p_prob_threshold=0.1, s_prob_threshold=0.1):
         preds = self.predict_probability(data)
-        p_index, s_index = arrival_probabilities_to_indices(preds)
+        p_index, s_index = arrival_probabilities_to_indices(preds, min_itp_probability=p_prob_threshold, min_its_probability=s_prob_threshold)
         p_index = p_index.detach().cpu().numpy().astype(float)
         s_index = s_index.detach().cpu().numpy().astype(float)
         p_index[p_index < 0] = np.nan
