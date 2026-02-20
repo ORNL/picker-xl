@@ -63,8 +63,7 @@ python run_tests.py
 
 ## Known Limitations
 
-* The model may have a less-than-optimal performance for earthquake data outside of a source-receiver distance
-range of 10–110 km and a magnitude range of 0–4.5 because of biases in the training data.
+* The model may have a less-than-optimal performance for earthquake data outside of a source-receiver distance range of 10–110 km and a magnitude range of 0–4.5 because of biases in the training data.
 * The model may produce false detections when applied to continuous seismic data.
 * The model may not perform well for earthquake data at larger distances or for non-earthquake sources.
 

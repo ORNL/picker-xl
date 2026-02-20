@@ -1,4 +1,5 @@
 import importlib.resources
+from importlib.resources import files, as_file
 
 import h5py
 import lightning as L
@@ -144,9 +145,8 @@ class PNet(L.LightningModule):
 class Picker:
     def __init__(self):
         self.model = PNet()
-        with importlib.resources.files("pickerxl").joinpath("model").joinpath(
-            "large.ckpt"
-        ) as fid:
+        data_path = files("pickerxl").joinpath("model").joinpath("large.ckpt")
+        with as_file(data_path) as fid:
             checkpoint_data = torch.load(fid)
         self.model.load_state_dict(checkpoint_data)
         self.model.eval()
