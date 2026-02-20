@@ -69,7 +69,7 @@ python run_tests.py
 
 ## Reference
 
-Chengping Chai, Derek Rose, Scott Stewart, Nathan Martindale, Mark Adams, Lisa Linville, Christopher Stanley, Anibely Torres Polanco, Philip Bingham; PickerXL, A Large Deep Learning Model to Measure Arrival Times from Noisy Seismic Signals. Seismological Research Letters 2025; doi: https://doi.org/10.1785/0220240353
+Chengping Chai, Derek Rose, Scott Stewart, Nathan Martindale, Mark Adams, Lisa Linville, Christopher Stanley, Anibely Torres Polanco, Philip Bingham; PickerXL, A Large Deep Learning Model to Measure Arrival Times from Noisy Seismic Signals. Seismological Research Letters 2025; 96 (4):2394-2404. doi: https://doi.org/10.1785/0220240353
 
 ## License
 
